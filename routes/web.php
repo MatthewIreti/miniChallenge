@@ -18,3 +18,12 @@ Route::get('/', function () {
 });
 
 Route::get('test', "RestController@loadTestUrl");
+
+Route::resource("vehicles", "VehicleController");
+Route::get("vehicles/{modelYear}/{manufacturer}/{model}", "VehicleController@vehicleSafetyRatings")
+->where([
+    'modelYear'=>'[a-zA-Z 0-9]+',
+    'manufacturer'=>'[a-z A-Z]+',
+    'model'=>'[a-zA-Z 0-9]+',
+
+]);
