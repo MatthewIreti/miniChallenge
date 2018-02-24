@@ -8,20 +8,10 @@ This is a test from Modus Challenge to test competencies in PHP Programming. Thi
 - run <code>composer update</code>
 - start the laravel server from the root of the project directory
 - use <code>php artisan serve</code> to run the server
+- if running php 5.6 ensure that always_populate_raw_data =-1 is uncommented in <code>php.ini</code>
 
-Test endpoints are as follows
+## Endpoint
 
-- [Test 1](https://laravel.com/docs/routing).
-- [Test 2](https://laravel.com/docs/container).
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
-
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
+<p>Base url is <p>
+<strong>http://localhost:8000/vehicles</strong>
  
